@@ -5,7 +5,8 @@ import fetch from "node-fetch";
 import Fuse from "fuse.js";
 
 const app = express(); 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+
 
 // Student chat history script
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxfPh0XkA1rcZslA0-i_tuF6Rv6vy5tCGlWTvX5vh1qpLfztlDuqRFhKt0wrb_5WETB0Q/exec";
