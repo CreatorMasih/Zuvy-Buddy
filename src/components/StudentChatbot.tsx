@@ -187,7 +187,9 @@ setMessages((prev) => [
     }, 50);
 
     try {
-      const res = await fetch("http://localhost:5000/query", {
+      // const res = await fetch("http://localhost:5000/query", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE_URL}/query`, {
+
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: studentName, email: studentEmail, text }),
