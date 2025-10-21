@@ -1716,7 +1716,7 @@ const handleSendMessage = async (text: string) => {
 
           <div class='flex flex-col items-start gap-4 text-[15px] leading-relaxed text-gray-800 dark:text-gray-100 bg-gradient-to-r from-green-50 to-emerald-50 dark:from-gray-800 dark:to-gray-700 border border-green-200 dark:border-gray-600 rounded-xl p-4 shadow-sm'>
   <div class='text-base font-semibold flex items-center gap-2'>
-    🤖 Hmm... I couldn’t find an exact answer to that right now.
+    Hmm... I couldn’t find an exact answer to that right now.
   </div>
   <p class='text-[14px] text-gray-600 dark:text-gray-300'>
     But no worries — our support team is always happy to help you! 💚  
